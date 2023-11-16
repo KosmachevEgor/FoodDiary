@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSite</title>
+    <link rel="stylesheet" href="../CSS_Files/Style.css">
+</head>
+<body id="Web">
+<div id="1"class = "webpanel">
+    <a>Hello, <?php echo $_SESSION['name'];?></a>
+    <a href="../HTML_Files/WebSiteTabel.html">Look my Diary</a>
+    <a href="../HTML_Files/WebSite.html">Add note in Diary</a>
+    <a href="../HTML_Files/Login.html">Exit</a>
+</div>
+<form method="post" action="../PHP_Files/site.php">
+    <div id="webPanel">
+        <label class="header">Your Diary</br></label></br>
+
+        <label for="data" class="webT">Choice Data: </label>
+        <input type="date" class="webTB" id="data" name="dateInfo" min="2022-01-01"></br>
+
+        <label for="product" class="webT">Product: </label></br>
+        <input class="webTB" type="text" id="product" name="product" />
+        </br></br>
+        <label for="weight" class="webT">Weight</label></br>
+        <input class="webTB" type="number" id="weight" name="weight" />
+        </br></br></br></br>
+        <input type="submit" value="Add In Diary" name="site" class="webTB" id="submit">
+    </div>
+</form>
+</body>
+</html>

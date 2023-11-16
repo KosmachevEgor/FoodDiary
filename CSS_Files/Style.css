@@ -1,0 +1,143 @@
+#login{
+    background-image: url("../Images/Login.jpg");
+    background-size: auto;
+}
+#registartion{
+    background-image: url("../Images/Registration.jpg");
+    background-size: auto;
+}
+#Web{
+    background-image: url("../Images/Web.jpg");
+    background-size: cover;
+}
+#panel{
+    background-color: rgba(255,255,255,0.7);
+    display: block;
+    position: absolute;
+    top:-10px;
+    left:-10px;
+    width: 101%;
+}
+.form-element{
+    font-family: 'Freestyle Script';
+    font-size: 72px;
+    text-align: center;
+    position: relative;
+    left: 15px;
+}
+#loginPanel{
+    width: 550px;
+    height: 350px;
+    position: relative;
+    top: 350px;
+    left: 30px;
+    background-color: rgba(255,255,255,0.7);
+}
+#registrPanel{
+    width: 550px;
+    height: 600px;
+    position: relative;
+    top: 100px;
+    left: 30px;
+    background-color: rgba(255,255,255,0.7);
+}
+#webPanel{
+    width: 550px;
+    height: 550px;
+    position: relative;
+    top: 100px;
+    left: 30px;
+    background-color: rgba(77, 129, 205, 0.57);
+}
+
+.webpanel{
+    background-color: #333;
+    overflow: hidden;
+
+}
+.webpanel a{
+    float: left;
+    color: white;
+    text-align: center;
+    font-family: "Freestyle Script";
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+}
+.header{
+    font-family: 'Freestyle Script';
+    color:white;
+    font-size: 72px;
+    text-align: center;
+    position: relative;
+    left: 15px;
+}
+.webT,
+.webTB,
+.webTE,
+.webTS{
+    font-family: 'Freestyle Script';
+    font-size: 48px;
+    Color:white;
+    position: relative;
+    left: 20px;
+}
+.webTB{
+    Color:Black;
+}
+.webTE{
+    Color: #ff0000;
+    left: 50px;
+    top:-25px;
+}
+.webTS{
+    Color: #00ff00;
+    left: 50px;
+    top:-25px;
+}
+
+
+
+
+
+
+
+
+
+.h{
+    font-family: 'Freestyle Script';
+    font-size: 72px;
+    text-align: center;
+    position: relative;
+    left: 15px;
+}
+.title{
+    font-family: 'Freestyle Script';
+    font-size: 32px;
+    position: relative;
+    left: 15px;
+}
+.title_err{
+    font-family: 'Freestyle Script';
+    color: darkred;
+    font-size: 32px;
+    position: relative;
+    left: 60px;
+    top:190px;
+}
+.rtitle_err{
+    font-family: 'Freestyle Script';
+    color: darkred;
+    font-size: 32px;
+    position: relative;
+    left: 50px;
+    top:-25px;
+}
+.rtitle_success{
+    font-family: 'Freestyle Script';
+    color: darkgreen;
+    font-size: 32px;
+    position: relative;
+    left: 50px;
+    top:-25px;
+}
